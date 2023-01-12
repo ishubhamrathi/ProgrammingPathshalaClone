@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap'); 
+:root{
+    --primary-color: #444bab;
+    --gradient: linear-gradient(93.53deg,#444bab,#416bb3 62.5%,#3ca5c2);
+}
+a{
+    text-decoration: none;
+    background-color: none;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 15px;
+    width: 98%;
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+#logo{
+    /* height: 70px; */
+    /* width: 120px; */
+}
+#logo_text{
+    width: 213px;
+    height: 23.7px;
+    color : var(--primary-color);
+    font-size: 32px;
+    font-family: 'Sofia sans';
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.links{
+    color: #4f516b;
+    position: relative;
+    text-align: center;
+    font-size: 18px;    
+    bottom: -11px;
+}
+#courses{
+    outline: 0;
+    border: none;
+    font-size: 16px;
+}
+
+.dropdown{
+    display: inline;
+}
+.link{
+    margin: 13px;
+    font-family: 'sofia sans';
+}
+.btn-primary{
+    margin: 2px;
+    padding: 0.6em 1em;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-secondary{
+    cursor: pointer;
+    margin: 2px;
+    padding: 0.6em 1em;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 149.8%;
+    color: #FFFFFF;
+    background: var(--gradient);
+    border: none;
+    border-radius: 5px;
+    max-height: 70px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+/* .col{
+    width: 50%;
+    max-width: 50%;
+    overflow:hidden ;
+} */
